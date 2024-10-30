@@ -64,4 +64,6 @@ Crédito ou Débito: ''')
         pagamento = input(f'''Qual a formade pagamento?
 Crédito ou Débito: ''')
         print(f'''Seu pagamento será feito em {pagamento}, sendo o valor de {total} e seus produtos são {carrinho}''')
+else:
+    print("Sua senha está incorreta")
     
