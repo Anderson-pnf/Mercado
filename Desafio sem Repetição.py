@@ -44,7 +44,7 @@ Diga o código do produto: ''')
     comprar = input('''Deseja comprar mais alguma coisa?
 Sim / Não : ''')
 
-    if comprar == "Sim".lower:
+    if comprar == "Sim":
         produto3 = input(f'''{produtos}
 Diga o código do produto: ''')
     if produto3:
@@ -59,7 +59,7 @@ Diga o código do produto: ''')
 Crédito ou Débito: ''')
         print(f'''Seu pagamento será feito em {pagamento}, sendo o valor de {total} e seus produtos são {carrinho}''')
 
-    elif comprar == 'Não'.lower:
+    elif comprar == 'Não':
         print("Qual a forma de pagamento?")
         pagamento = input(f'''Qual a formade pagamento?
 Crédito ou Débito: ''')
